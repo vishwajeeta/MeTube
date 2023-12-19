@@ -1,0 +1,21 @@
+//create project
+django-admin startproject MyTube
+//create app
+python manage.py startapp home
+//initializing up database
+python manage.py migrate
+//making migration after updating /creating database
+python manage.py makemigrations
+//after migration
+python manage.py makemigrations
+//to start the server
+python manage.py runserver
+//to exit [ Ctrl+C ]
+
+//to create superuser
+python manage.py createsuperuser
+
+//to make backup
+python manage.py dumpdata > omg.json
+//to load backup data on database
+python manage.py loaddata omg.json
